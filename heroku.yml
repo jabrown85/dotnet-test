@@ -1,5 +1,5 @@
 build:
   docker:
-    web: Dockerfile
+    web: DockerfileSSS
 run:
   web: ASPNETCORE_URLS=http://*:$PORT dotnet dotnet.dll
